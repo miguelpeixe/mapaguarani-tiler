@@ -18,9 +18,13 @@ Instale as dependências do tiler:
 $ npm install
 ```
 
-## Rodando
+## Executando a aplicação
 
-Teste:
+```
+$ node app.js
+```
+
+Acesse:
 
 `http://localhost:4000/tiles`
 
