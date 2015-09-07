@@ -22,8 +22,8 @@ $ npm install
 
 Teste:
 
-`http://localhost:4000/tiles'
+`http://localhost:4000/tiles`
 
 Utilize o token recebido:
 
-`http://localhost:4000/tiles/[token]/{z}/{x}/{y}.png'
+`http://localhost:4000/tiles/[token]/{z}/{x}/{y}.png`
