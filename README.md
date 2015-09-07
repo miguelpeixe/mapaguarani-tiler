@@ -2,9 +2,9 @@
 
 Gerador de tiles para o projeto Mapa Guarani
 
-## Preparando o ambiente para o (Windshaft)[https://github.com/CartoDB/Windshaft]
+## Preparando o ambiente para o [Windshaft](https://github.com/CartoDB/Windshaft)
 
-(Acesse este tutorial para Ubuntu 14.04)[https://gist.github.com/miguelpeixe/cf29702c2b19cea55f07]
+[Acesse este tutorial para Ubuntu 14.04](https://gist.github.com/miguelpeixe/cf29702c2b19cea55f07)
 
 ## Configure o PostgreSQL
 
