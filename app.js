@@ -47,8 +47,6 @@ var config = {
     req.params =  _.extend({}, req.params);
     _.extend(req.params, req.query);
 
-    console.log(req.query);
-
     req.params.config = {
       srid: 4326,
       layers: [

@@ -8,7 +8,7 @@ Gerador de tiles para o projeto Mapa Guarani
 
 ## Configure o PostgreSQL
 
-Após instalar todas as dependências, altere as permissões do Postgres (/etc/postgresql/9.3/main/pg_hba.conf) para que o mapnik tenha acesso à base.
+Após instalar todas as dependências, altere as permissões do Postgres (`/etc/postgresql/9.3/main/pg_hba.conf`) para que o mapnik tenha acesso à base.
 
 ## Instalação
 
