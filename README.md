@@ -45,9 +45,7 @@ $ sudo make install
 $ sudo ldconfig
 ```
 
-### Instalando o Windshaft
-
-#### Dependências do Windshaft
+### Dependências do Windshaft
 
 Adicione o repositório do node:
 
