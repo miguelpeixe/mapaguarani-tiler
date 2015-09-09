@@ -50,7 +50,7 @@ $ sudo ldconfig
 Adicione o repositório do node:
 
 ```
-$ sudo add-apt-repository ppa:chris-lea/node.js 
+$ sudo add-apt-repository ppa:chris-lea/node.js
 ```
 
 Adicione o repositório do servidor redis:
@@ -94,10 +94,7 @@ $ npm install
 $ node app.js
 ```
 
-Acesse:
+Utilize sua biblioteca de mapas preferida:
 
-`http://localhost:4000/tiles`
-
-Utilize o token recebido:
-
-`http://localhost:4000/tiles/[token]/{z}/{x}/{y}.png`
+`http://localhost:4000/database/mapaguarani/table/core_indigenousland/{z}/{x}/{y}.png`
+`http://localhost:4000/database/mapaguarani/table/core_indigenousland/{z}/{x}/{y}.grid.json?interactivity=id,name`
