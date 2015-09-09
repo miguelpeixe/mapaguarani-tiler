@@ -25,8 +25,8 @@ global.environment = {
 };
 
 var config = {
-  base_url: '/database/:dbname/table/:table',
-  base_url_notable: '/database/:dbname',
+  base_url: '/:table',
+  base_url_notable: '/',
   grainstore: {
     datasource: {
       user: 'postgres',
@@ -49,8 +49,17 @@ var config = {
     port: 6379
   },
   req2params: function(req, callback){
+
+    // import query to params
     req.params = _.extend({}, req.params);
     _.extend(req.params, req.query);
+
+    if(req.params.table.indexOf('core_') == -1) {
+      req.params.table = 'core_' + req.params.table;
+    }
+
+    req.params.dbname = 'mapaguarani';
+
     callback(null,req)
   }
 };
