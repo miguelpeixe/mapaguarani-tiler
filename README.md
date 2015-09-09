@@ -97,4 +97,5 @@ $ node app.js
 Utilize sua biblioteca de mapas preferida:
 
 `http://localhost:4000/indigenousland/{z}/{x}/{y}.png`
+
 `http://localhost:4000/indigenousland/{z}/{x}/{y}.grid.json?interactivity=id,name`
