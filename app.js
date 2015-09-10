@@ -26,7 +26,7 @@ global.environment = {
 
 var config = {
   base_url: '/:table',
-  base_url_notable: '/',
+  base_url_notable: '/api',
   grainstore: {
     datasource: {
       user: 'postgres',
@@ -61,6 +61,12 @@ var config = {
     req.params.dbname = 'mapaguarani';
 
     callback(null,req)
+  },
+  beforeTileRender: function(req, res, callback) {
+    callback(null);
+  },
+  afterTileRender: function(req, res, tile, headers, callback) {
+    callback(null, tile, headers);
   }
 };
 
