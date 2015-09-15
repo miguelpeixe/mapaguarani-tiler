@@ -88,6 +88,14 @@ Instale as dependências do tiler:
 $ npm install
 ```
 
+## Configuração
+
+Copie o `config.example.js` para `config.js` e edite com as suas definições:
+
+```
+$ cp config.example.js config.js
+```
+
 ## Executando a aplicação
 
 ```

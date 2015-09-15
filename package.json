@@ -9,6 +9,7 @@
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
+    "request": "^2.62.0",
     "underscore": "^1.8.3",
     "windshaft": "^0.40.0"
   }
