@@ -4,7 +4,8 @@ module.exports = {
     user: 'postgres',
     host: '127.0.0.1',
     port: 5432,
-    srid: 4326
+    srid: 4326,
+    geometry_field: 'geometry'
   },
   dbname: 'mapaguarani',
   redis: {
